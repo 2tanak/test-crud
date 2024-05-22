@@ -12,7 +12,7 @@
      
        <div class="card-body">
 	   <div class='title'>{{$item->name}}</div>
-         <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+        {!! $item->text !!}
 		 </br>
 		 <a href="{{route('stati',$item->id)}}">Подробнее</a>
        </div>
